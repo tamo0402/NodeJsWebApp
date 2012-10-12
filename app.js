@@ -55,11 +55,12 @@ http.createServer(app).listen(app.get('port'), function(){
 
 
 // OAuthの処理。
+// Consumer keyとConsumer secretは自分のを入れてね。
 var oa = new OAuth(
     "https://api.twitter.com/oauth/request_token",
     "https://api.twitter.com/oauth/access_token",
-    "UFDgls0uEgFGEefKcGRww",
-    "ClSGapDl4DKSUQKGVKPLh58vl5LaMKKF7N6eE2Xy2E",
+    "your Consumer key",
+    "your Consumer secret",
     "1.0",
     "http://thematalk.com:3000/auth/twitter/callback",
     "HMAC-SHA1"
