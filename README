@@ -1,4 +1,6 @@
-NodeJsWebApp
+##NodeJsWebApp
 
 
-ようやくNode.jsを使ったWebアプリを誠意作成中。
+Node.jsを使ったWebアプリのログイン部分。
+名前を入れるまたは、twitterのアカウントでoauthログイン。
+とりあえず名前表示のみ。
